@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 
 const routes = [
 	{
-		path: '/',
+		path: '',
 		name: 'Home',
 		component: Home,
 		meta: {
@@ -38,7 +38,7 @@ const routes = [
 ];
 
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHashHistory(),
 	routes,
 	scrollBehavior() {
 		document.getElementById('app').scrollIntoView();
