@@ -1,4 +1,4 @@
-[Demo]([https://github.com/Kevin996233](https://crazyxi.github.io/KuibaWeb/#/))
+[Demo](https://crazyxi.github.io/KuibaWeb/#/)
 ## 使用技术框架
 * Vue3
 * Vite
